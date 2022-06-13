@@ -8,4 +8,3 @@ selenium~=4.2.0
 python-dateutil~=2.8.2
 DateTime~=4.4
 Pillow~=9.1.1
-undetected_chromedriver~=3.1.0
