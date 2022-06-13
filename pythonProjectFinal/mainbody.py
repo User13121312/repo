@@ -196,9 +196,21 @@ with st.echo(code_location='below'):
 
     actual_name = st.text_input(label='ФИО из текста', value = None)
     actual_toponim = st.text_input(label='Топоним из текста', value = None)
+    if actual_toponim is not None:
+        url_long = 'https://geocode-maps.yandex.ru/1.x/?apikey=cd333ccb-ab76-45e4-b569-9f6a690fab57&geocode=' + actual_toponim +'&format=json'
+        r = requests.get(url_long)
+        try:
+            pos = r.json()['response']['GeoObjectCollection']['featureMember'][0]['GeoObject']['Point']['pos']
+            if len(pos == 19):
+                st.write("Я нашёл координаты этого места:", pos, "! В последствии можно будет нанести их на карту")
+                df.loc[the_chosen]['user notes']['position'] = pos
+        except:
+            pass
     df.loc[the_chosen]['user notes']['added'] = True
     df.loc[the_chosen]['user notes']['actual_name'] = actual_name
     df.loc[the_chosen]['user notes']['actual_toponim'] = actual_toponim
     df.loc[the_chosen]['user notes']
-
+    """
+    Здесь реализована работа с API, есть зачатки работы с геоданными.
+    """
 
