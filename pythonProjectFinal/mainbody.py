@@ -201,7 +201,7 @@ with st.echo(code_location='below'):
         r = requests.get(url_long)
         try:
             pos = r.json()['response']['GeoObjectCollection']['featureMember'][0]['GeoObject']['Point']['pos']
-            if len(pos == 19):
+            if len(pos) == 19:
                 st.write("Я нашёл координаты этого места:", pos, "! В последствии можно будет нанести их на карту")
                 df.loc[the_chosen]['user notes']['position'] = pos
         except:
