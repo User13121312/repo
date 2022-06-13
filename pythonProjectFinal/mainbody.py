@@ -121,7 +121,7 @@ with st.echo(code_location='below'):
 
     @st.cache
     def get_data():
-       return pd.read_csv(r'C:\Users\1\Downloads\OK_data.csv')[['url', 'date', 'group', 'text']]
+       return pd.read_csv(r'OK_data.csv')[['url', 'date', 'group', 'text']]
 
     df = get_data()
     """
