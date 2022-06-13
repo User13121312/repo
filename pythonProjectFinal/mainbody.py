@@ -156,6 +156,7 @@ with st.echo(code_location='below'):
     @st.cache
     def get_image():
         return Image.open(r'pythonProjectFinal/figonline.png')
+    image = get_image()
     st.image(image, caption='Соцсеть склонна показывает самые последние посты')
 
     no_na_df = df.dropna()
