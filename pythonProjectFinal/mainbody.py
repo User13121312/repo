@@ -153,7 +153,9 @@ with st.echo(code_location='below'):
         st.pyplot(fig)
 
     # картинка получена почти что этим же кодом, но в юпитере
-    image = Image.open('figonline.png')
+    @st.cache
+    def get_image():
+        return Image.open(r'pythonProjectFinal/figonline.png')
     st.image(image, caption='Соцсеть склонна показывает самые последние посты')
 
     no_na_df = df.dropna()
