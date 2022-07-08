@@ -24,7 +24,6 @@ def get_data():
     return df
 
 
-@st.cache
 def draw_rosechart(names, values):
     the_title = 'Balance of Life for ' + values[-1]
     c = (
