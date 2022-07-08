@@ -1,0 +1,4 @@
+gspread~=5.4.0
+pandas~=1.4.3
+streamlit~=1.10.0
+pyecharts~=1.9.1

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "balance-of-life",
+  "private_key_id": "f2db7961f7c6f92421bbdb665bbd60cf18ecc230",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCN2zw1z6Kl6YfZ\nk56K+0yrj4mJUPDbgKEwNQSVKf6QPdjUL/ppyyVdKbualzqPDz4raZ/4C9/6CPLL\nD0jtzR41qoRpUQQrVcfShxLjh60FZSIJ55yLiEA01kFIPzLigAjtoexiTY9fC9hh\nYOEdI0HvK6oyhfYhIHyBX/0XtDK4G/OARoMUpTrr0T/witreYUy8DU4D3KmsYpPT\nlhD6dKhDvbpnSMTzKOYEwePEgewMt7mD2dVO8fguxBftvRloUhLflQH0tQFe1ONe\nNbHxGTl5c3Qs6nEOQnEbifhEFtmYJDGftrLL9Zq3b744VHrzTy9Gmioo5OlILrBh\n7XbMAeY9AgMBAAECggEAAxZPleM2KLKvnmxQQbmM1ln6FgcxKrG+sEgjGKTwkY6L\nArklk7pUTpX7K3bZkyXzhinXDaSig/RAZmtnfKdfXi8fERSuiMvl3J7Mai+4c/ra\ntgj4lu/I5+12v74CWzwKlbNVq+EAuwKMu7fKRmJPS8dxPYa9T8S/eOhQH30wMmH/\nCk24zR19aPZYaXMnW404NYtR0b3GmlNEsawMaYstikYRo3sno6sI8WKTjBS5oI8z\np5CgZpUbVEUqyRyni7BhloNSw56ybo7pMtOWntP8QzLJQkHo3YhENNw6p2hBgaQf\nU9UMUnaLG547gYY5Uo2Tl1xYDcnjT7yfjMN8rSn3OQKBgQDGSFviEZAn0V2oaXV2\nZIu54Ufjj8N5Vz+QbGZZvjWr0PfR9JnakJMgN1axwXw8+g+5IYrrCFYXOtDGiCBb\nxPDUhca/QfLxUtxCVLqd/WiEcUK11hxJmqvstV4YOBUROB8bE2NRHsu6WqbRls0S\n/GYXOnSVSzdN503TEXf6UHBlpQKBgQC3JhmMFevr8BctIDkZ3DoKzCMuCyse/lSv\nJHYyK6v3p9aSU/ABKt3Rks+tkEc0sr+n7737VbrP4OFQXBCqAw/iVd9xJuVpyqoZ\nqF6A35zyYpnA+o+rQPKZMojCc4AGlmH7DJhHVYGLnQbTorMBVdW6UbYh7C67tZwz\nzgG5kpAKuQKBgE4grsup/fIihdPZEeZ/garRQIFC4VPLdAlVHRMZZo53vV4mEgVT\n2BTmmStbQLfKFC3vMIyhcUKf8yl288EVHYuv1nr/4lkCPDWKqymbcvZUpmN9pRG/\ndyTC5fuHBY4OXftOLWEGUGHyXC7TS6TCfPuEFfHJfFYe4MRc6rhfv5ndAoGAAZN+\nXMpDgYBLcsP4OdS/WyBunRLTiCzAJdG2grAFhtgW7KN0SU5JImiVCPVY54cyRwu1\nItiWBvv0dHCWZCAqntQGXD7tcn+f/yCHz6wc+akHkbWWTu78J31b1/COhX/9z99H\n4DVILB9p06Bu0fAfKr9RRfF2ZX8mnPuE4Ef2nWECgYEAglBWbnGRmM3XchkCUX/o\n7hf8LMXIHTgoreHRxsZDQjJurRI8uvTCC/hjgXe7+gYkfdtJxPiT7r8K3Hi/+zkY\nIFpkai/UL57/VXr/PD507qm40ZFTlsBhTQm6Ce/XQ8wm0I1ck8/zkJHoKYqWhp3f\nkgGUq1GC0Xxl+z0HwtuLhEs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bol-service-account@balance-of-life.iam.gserviceaccount.com",
+  "client_id": "114034193972424911458",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bol-service-account%40balance-of-life.iam.gserviceaccount.com"
+}
