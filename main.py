@@ -8,7 +8,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-@st.cache
 def get_data():
     SCOPE = ['https://spreadsheets.google.com/feeds',
              'https://www.googleapis.com/auth/drive']
